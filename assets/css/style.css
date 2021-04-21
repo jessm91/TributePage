@@ -6,27 +6,52 @@
 h1 {
     color: red;
     text-align: center;
+    font-size: 56px;
+    font-family: 'Dosis', sans-serif;
 }
 
 h2 {
     color: red;
     text-align: center;
+    font-size: 46px;
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 img {
-    height: 300px;
+    height: auto;
     width: auto;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 450px;
+    max-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
 }
 
 figcaption {
     text-align: center;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+td {
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    text-align: center;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+#img-div {
+    text-align: center;
 }
 
 .container {
-    margin: 100px;
+    margin: 75px;
 }
 
 .row {
@@ -42,6 +67,8 @@ figcaption {
     flex-basis: 100%;
     flex: 1;
     margin: 50px;
+    font-size: 20px;
+    padding-right: 80px;
 }
 
 .right-column {
@@ -49,8 +76,39 @@ figcaption {
     flex-direction: column;
     flex-basis: 100%;
     flex: 2;
+    font-size: 18px;
+}
+
+.list {
+    padding-left: 65px;
+}
+
+.table {
+    padding-right: 65px;
+    font-size: 20px;
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 .video {
     text-align: center;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: red;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black;
+  }

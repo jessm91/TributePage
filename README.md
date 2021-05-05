@@ -6,7 +6,7 @@ This is a band tribute webpage for The Strokes and was created using HTML and CS
 
 ## Deployment
 
-https://jessm91.github.io/TributePage/
+https://jessm91.github.io/tributepage/
 
 ## Credits
 

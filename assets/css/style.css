@@ -112,3 +112,27 @@ ol {
   ::-webkit-scrollbar-thumb:hover {
     background: black;
   }
+
+  @media (max-width: 550px) {
+
+    .container {
+        margin: auto;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .column {
+        display: block;
+        margin: auto;
+    }
+
+    .right-column {
+        display: block;
+    }
+
+    p {
+          font-size: 12px;
+      }
+  }

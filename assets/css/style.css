@@ -113,6 +113,37 @@ ol {
     background: black;
   }
 
+  @media screen and (max-width: 800px) {
+    .container {
+        margin: auto;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .column {
+        display: block;
+        margin: auto;
+        flex-direction: none;
+        padding-right: 0px;
+    }
+
+    .right-column {
+        display: block;
+        flex-direction: none;
+        flex: 1;
+    }
+
+    .table {
+        padding-right: 0px;
+    }
+
+    .list {
+        padding-left: 0px;
+    }
+}
+
   @media (max-width: 550px) {
 
     .container {
